@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CameraApp1</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="present">Present?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">save</string>
+    <string name="load">Load</string>
+    <string name="clear">clear</string>
+    <string name="todo">TODO</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="get_location">Get Location</string>
+    <string name="address">Address</string>
+    <string name="view_photos">View Photos</string>
+    <string name="take_attendance">Take Attendance</string>
+    <string name="view_attendance">View Attendance</string>
+</resources>

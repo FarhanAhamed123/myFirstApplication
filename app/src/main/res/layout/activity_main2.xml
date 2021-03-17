@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+    <EditText
+        android:id="@+id/inputFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/first_name"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        tools:ignore="Autofill" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <EditText
+        android:id="@+id/inputLastName"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/last_name"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        tools:ignore="Autofill" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+
+    <EditText
+        android:id="@+id/inputEmployeeID"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/employee_id"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        tools:ignore="Autofill" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+
+    <TextView
+        android:id="@+id/presentid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/present"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPresent"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioButtonYes"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:text="@string/yes"/>
+         <RadioButton
+             android:id="@+id/radioButtonNo"
+             android:layout_width="wrap_content"
+             android:layout_height="85dp"
+             android:text="@string/no"
+             android:layout_marginStart="12dp"
+             android:layout_marginLeft="12dp" />
+    </RadioGroup>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="85dp"
+      android:layout_margin="10dp"
+      android:orientation="horizontal">
+       <Button
+           android:id="@+id/buttonSave"
+           android:layout_width="0dp"
+           android:layout_height="55dp"
+           android:layout_weight="1"
+           android:text="@string/save"
+           tools:ignore="ButtonStyle"
+           android:layout_marginRight="5dp"
+           android:layout_marginEnd="5dp" />
+
+
+        <Button
+            android:id="@+id/buttonLoad"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="@string/load"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+          android:id="@+id/buttonClear"
+          android:layout_width="0dp"
+          android:layout_height="55dp"
+          android:layout_weight="1"
+          android:text="@string/clear"
+          tools:ignore="ButtonStyle"
+          android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp" />
+  </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/viewAttendanceButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/view_attendance"
+        tools:ignore="HardcodedText" />
+
+
+
+  </LinearLayout>
