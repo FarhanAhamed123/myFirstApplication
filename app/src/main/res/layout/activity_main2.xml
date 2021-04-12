@@ -89,53 +89,54 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="5dp" />
+    <Button
+        android:id="@+id/btn_timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_time"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/tv_textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp" />
 
-    <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="85dp"
-      android:layout_margin="10dp"
-      android:orientation="horizontal">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+     <LinearLayout
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_marginTop="10dp"
+         android:layout_gravity="center_horizontal">
        <Button
            android:id="@+id/buttonSave"
-           android:layout_width="0dp"
-           android:layout_height="55dp"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
            android:layout_weight="1"
            android:text="@string/save"
-           tools:ignore="ButtonStyle"
+           tools:ignore="ButtonStyle,Suspicious0dp"
            android:layout_marginRight="5dp"
            android:layout_marginEnd="5dp" />
-
-
-        <Button
-            android:id="@+id/buttonLoad"
-            android:layout_width="0dp"
-            android:layout_height="55dp"
-            android:layout_weight="1"
-            android:text="@string/load"
-            tools:ignore="ButtonStyle" />
-
-        <Button
-          android:id="@+id/buttonClear"
-          android:layout_width="0dp"
-          android:layout_height="55dp"
-          android:layout_weight="1"
-          android:text="@string/clear"
-          tools:ignore="ButtonStyle"
-          android:layout_marginLeft="5dp"
-            android:layout_marginStart="5dp" />
-  </LinearLayout>
     <Space
         android:layout_width="match_parent"
         android:layout_height="5dp" />
 
     <Button
         android:id="@+id/viewAttendanceButton"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="@string/view_attendance"
-        tools:ignore="HardcodedText" />
+        tools:ignore="ButtonStyle,Suspicious0dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"/>
+    </LinearLayout>
+</LinearLayout>
 
 
-
-  </LinearLayout>

@@ -30,8 +30,5 @@ class PreferencesProvider(context: Context) {
         return sharedPreferences.getInt(key,0)
 
     }
-    //clear shared preferences
-    fun clear(){
-        sharedPreferences.edit().clear().apply()//this will clear whole shared preferences data
-    }
+
 }

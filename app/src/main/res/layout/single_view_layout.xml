@@ -2,11 +2,14 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 <androidx.cardview.widget.CardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="6dp">
+    android:layout_margin="6dp"
+    android:id="@+id/single_view_layout"
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +20,7 @@
             android:id="@+id/firstNameTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FirstName"
+            android:text="@string/firstname"
             android:padding="6dp"
             android:textColor="#000000"
             android:textStyle="italic"
@@ -27,7 +30,7 @@
             android:id="@+id/lastNameTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LastName"
+            android:text="@string/lastname"
             android:padding="6dp"
             android:textColor="#000000"
             android:textStyle="italic"
@@ -37,12 +40,24 @@
             android:id="@+id/employeeIDTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Employee ID"
+            android:text="@string/employee_id"
             android:padding="6dp"
             android:textColor="#000000"
             android:textStyle="italic"
             android:textSize="20sp"
             android:textAppearance="@style/Base.CardView"/>
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date_and_time"
+            android:padding="6dp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textAppearance="@style/Base.CardView"/>
+
+
 </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>

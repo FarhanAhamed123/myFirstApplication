@@ -7,13 +7,17 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="save">save</string>
-    <string name="load">Load</string>
-    <string name="clear">clear</string>
     <string name="todo">TODO</string>
     <string name="open_camera">Open Camera</string>
     <string name="get_location">Get Location</string>
     <string name="address">Address</string>
     <string name="view_photos">View Photos</string>
-    <string name="take_attendance">Take Attendance</string>
+    <string name="mark_attendance">Mark Attendance</string>
     <string name="view_attendance">View Attendance</string>
+    <string name="what_time">what time?</string>
+    <string name="firstname">FirstName</string>
+    <string name="lastname">LastName</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="date_and_time">Date and Time</string>
 </resources>
