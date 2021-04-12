@@ -1,6 +1,7 @@
 package com.example.cameraapp1
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -19,12 +20,13 @@ import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationResult
 import com.google.android.gms.location.LocationServices
+import com.google.firebase.database.FirebaseDatabase
 import java.util.*
 
 // camera variable
 private const val REQUEST_CODE=42
 
-@Suppress("DEPRECATION")
+@Suppress("DEPRECATION", "NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 class MainActivity : AppCompatActivity() {
 
     // Location object
@@ -32,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         private val REQUEST_PERMISSION_REQUEST_CODE=2020
     }
 
+    @SuppressLint("QueryPermissionsNeeded")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
